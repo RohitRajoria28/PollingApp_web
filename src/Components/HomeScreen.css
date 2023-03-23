@@ -1,0 +1,45 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #b7e593;
+    border: 1px solid #225b20;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .item:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .url {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .author {
+    margin: 10px 0;
+    font-size: 14px;
+    font-style: italic;
+    color: #999;
+  }
+  
+  .created_at {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #999;
+  }
+  
